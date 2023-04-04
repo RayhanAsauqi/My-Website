@@ -1,0 +1,52 @@
+/* About */
+.about,
+.skill,
+.blog,
+.contact {
+  padding: 8rem 7% 1.4rem;
+}
+
+.about h2,
+.skill h2,
+.contact h2,.blog h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+.about h2 span,
+.skill h2 span,
+.contact h2 span,
+.blog h2 span {
+  color: #a5d7e8;
+}
+
+.about .row {
+  display: flex;
+}
+
+.about .row .about-img {
+  flex: 1 1 45rem;
+}
+
+.about .row .about-img img {
+  width: 100%;
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.about .row .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #a5d7e8;
+}
+
+.about .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
